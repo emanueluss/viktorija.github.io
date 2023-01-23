@@ -1,0 +1,71 @@
+body,html {
+    margin: 0px 0px 0px;
+    padding: 0px 0px 0px;
+}
+#font1 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#font2 {
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.banner {
+    white-space: nowrap;
+    margin: 0px 0px 0px;
+    padding: 0px 0px 0px;
+    width: auto;
+    height: 120px;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+.header {
+    display: inline-block;
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+}
+
+.image {
+   
+    display: flex;
+    justify-content: center;
+}
+
+
+.header2 {
+    font-size: 35px;
+    display: inline-block;
+    padding: 0px 10px 0px;
+}
+
+.empty-space {
+    height: 150px;
+}
+.credits1{
+    font-size: 20px;
+    color: rgb(197, 197, 197);
+    text-align: center;
+}
+.credits2{
+    font-size: 20px;
+    color: rgb(197, 197, 197);
+    text-align: center;
+
+}
+.credits-hl {
+    font-size: 20px;
+    text-align: center;
+}
+.center-hl {
+display: flex;
+justify-content: center;
+}
+
+
+@media only screen and (min-width: 700px){
+    .header {
+        font-size: 55px;
+    }
+
+
+}
